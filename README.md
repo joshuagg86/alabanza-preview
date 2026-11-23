@@ -22,3 +22,8 @@ La nueva compilación incluye mejoras del visor de canciones y mensajes descript
 - Selector de tema integrado junto al logo del encabezado, aviso de sincronización oculto en móvil.
 - Contrastes de tema claro corregidos y azules sustituyen a morados legados.
 - Logo claro automático cuando exista logo_claro.png en la rama feature/android-blue-app.
+
+## Validación logo y Supabase — 23 noviembre 2026
+- Se verificó que `logo_claro.png` y `logo.png` están en `feature/android-blue-app`.
+- La compilación Android copia ambos recursos desde la rama de desarrollo.
+- Supabase: el usuario confirmó que configuró `ALABANZA_ALLOWED_ORIGINS`; validar acceso desde `https://localhost` al probar una canción publicada en la APK.
