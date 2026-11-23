@@ -2,6 +2,10 @@ name: Compilar APK Android de prueba
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/android-debug.yml'
 
 permissions:
   contents: read
