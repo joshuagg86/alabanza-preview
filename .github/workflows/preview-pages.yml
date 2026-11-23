@@ -50,6 +50,11 @@ jobs:
         with:
           path: public
 
+      # Artifact metadata can take a few seconds to propagate on GitHub's API.
+      - name: Esperar disponibilidad del paquete
+        shell: bash
+        run: sleep 25
+
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
