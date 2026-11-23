@@ -14,3 +14,6 @@ Entrega de prueba: descargas individuales de pads y pistas de ensayo, lector de 
 - Descargas: botón Ver abre el lector completo.
 - Mejor contraste azul y controles del lector.
 - Audio cloud Android: la función Supabase requiere autorizar origen https://localhost y redeplegarla.
+
+## QA 2026-11-23
+La nueva compilación incluye mejoras del visor de canciones y mensajes descriptivos cuando el servicio de audio privado no permite el origen Android. Pendiente: desplegar el ajuste de Supabase para https://localhost.
