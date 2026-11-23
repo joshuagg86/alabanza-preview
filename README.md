@@ -17,3 +17,8 @@ Entrega de prueba: descargas individuales de pads y pistas de ensayo, lector de 
 
 ## QA 2026-11-23
 La nueva compilación incluye mejoras del visor de canciones y mensajes descriptivos cuando el servicio de audio privado no permite el origen Android. Pendiente: desplegar el ajuste de Supabase para https://localhost.
+
+## Corrección visual nueva
+- Selector de tema integrado junto al logo del encabezado, aviso de sincronización oculto en móvil.
+- Contrastes de tema claro corregidos y azules sustituyen a morados legados.
+- Logo claro automático cuando exista logo_claro.png en la rama feature/android-blue-app.
