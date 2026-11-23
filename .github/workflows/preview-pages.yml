@@ -29,7 +29,6 @@ jobs:
           persist-credentials: false
           sparse-checkout: |
             /*
-            /pads/
           sparse-checkout-cone-mode: false
 
       - name: Preparar archivos públicos
@@ -38,13 +37,13 @@ jobs:
           set -euo pipefail
           mkdir -p public
           find . -maxdepth 1 -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.json' -o -name '*.png' -o -name '*.svg' -o -name '*.webp' -o -name '*.ico' \) -exec cp {} public/ \;
-          if [ -d pads ]; then
-            mkdir -p public/pads
-            find pads -maxdepth 1 -type f -name '*.mp3' -exec cp {} public/pads/ \;
-          fi
+          # Los pads se integrarán al pasar a descargas locales; esta publicación valida la interfaz.
           touch public/.nojekyll
           test -f public/index.html
           test -f public/app-mobile-shell.js
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Subir sitio a GitHub Pages
         uses: actions/upload-pages-artifact@v3
