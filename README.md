@@ -73,3 +73,12 @@ QA: restauración al reiniciar corregida para no sustituir la biblioteca interna
 - El botón de ajustes ahora es un ícono de deslizadores sin texto; panel desplegable flotante a nivel body para evitar recortes y conflictos de z-index.
 - La navegación por secciones se superpone a la letra en vez de reducir el ancho de lectura.
 - Tablet/PC mantienen diseño original y mezclador. Revisión funcional pendiente en Vivo.
+
+## Interfaz musical fija — 24 noviembre 2026
+- Nueva barra fija en el lector de celular: Pads / Metrónomo / Ensayar.
+- Pads y Metrónomo tienen paneles individuales, sus controles y volumen horizontal, sin cortar los deslizadores.
+- Ensayar restaura el mezclador multipista; el modo de ensayo a pantalla completa continúa deshabilitado solo en teléfono.
+- Menú de ajustes superior: Editar canción, Mostrar acordes, Tamaño de letra, Velocidad de lectura.
+- Eliminada la fila Distribución y el acceso largo al Audio Rack.
+- Pistas de pads no descargadas se consultan desde GitHub Pages cuando Android tiene conexión.
+- Reutiliza motor WebAudio y reproducción anterior sin modificar datos ni descargas existentes.
