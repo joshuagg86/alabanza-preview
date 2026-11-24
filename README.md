@@ -27,3 +27,10 @@ La nueva compilación incluye mejoras del visor de canciones y mensajes descript
 - Se verificó que `logo_claro.png` y `logo.png` están en `feature/android-blue-app`.
 - La compilación Android copia ambos recursos desde la rama de desarrollo.
 - Supabase: el usuario confirmó que configuró `ALABANZA_ALLOWED_ORIGINS`; validar acceso desde `https://localhost` al probar una canción publicada en la APK.
+
+## QA audio — 23 noviembre de 2026
+- Sólo tema oscuro, sin botón de selección de tema.
+- Pads: caché de dos tonos decodificados, pre-carga al seleccionar.
+- Mezclador: preparación automática de pistas guardadas, transporte Play/Pausa con iconos.
+- Descargar pistas: confirma que ya están descargadas y deshabilita descarga redundante.
+- Reproducir después de preparación; la primera decodificación aún puede tardar según RAM y duración.
