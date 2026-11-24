@@ -45,3 +45,10 @@ Ajuste final de audio: precarga de pads bajo demanda, sin decodificar un tono in
 
 ### Ajuste final del catálogo offline
 La pantalla de Inicio también filtra títulos por letras descargadas en modo avión; revisión final incluida en la compilación.
+
+## Ajuste de noviembre 24: letras automáticas y descargas solo audio
+- Descargas ya no tiene botones ni listas para letras.
+- El repertorio se restaura del archivo privado Android al abrir la app, y se sincroniza al recuperar las canciones Firestore online.
+- Actualizado ícono adaptive Android con fondo azul ICEGH (no blanco).
+- Modal de Ensayar portado al body para evitar superposición del blur, cierre sin detener el sonido.
+- Android: @capacitor/filesystem 8.1.5 registrado para almacenar la biblioteca de letras.
