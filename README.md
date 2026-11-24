@@ -54,3 +54,10 @@ La pantalla de Inicio también filtra títulos por letras descargadas en modo av
 - Android: @capacitor/filesystem 8.1.5 registrado para almacenar la biblioteca de letras.
 
 QA: restauración al reiniciar corregida para no sustituir la biblioteca interna por una caché parcial de Firestore.
+
+## Revisión posterior a QA completa — 24 noviembre 2026
+- Se confirma que el usuario probó correctamente seis funciones Android: icono, descargas sólo audio, letras persistentes con reinicio, lector offline, mezclador popup y reproducción al cerrar.
+- Descargas muestra número de archivos y tamaño total del audio almacenado.
+- Se pide confirmación antes de eliminar pads o mezclas descargados.
+- Pads y mezclador actualizan automáticamente el indicador descargado al modificar la biblioteca.
+- Se mantienen sin cambios la web publicada y el motor de audio estable.
