@@ -52,3 +52,5 @@ La pantalla de Inicio también filtra títulos por letras descargadas en modo av
 - Actualizado ícono adaptive Android con fondo azul ICEGH (no blanco).
 - Modal de Ensayar portado al body para evitar superposición del blur, cierre sin detener el sonido.
 - Android: @capacitor/filesystem 8.1.5 registrado para almacenar la biblioteca de letras.
+
+QA: restauración al reiniciar corregida para no sustituir la biblioteca interna por una caché parcial de Firestore.
