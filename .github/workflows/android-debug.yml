@@ -48,6 +48,16 @@ jobs:
           npx cap add android
           npx cap sync android
 
+      - name: Configurar Python para iconos
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generar icono ICEGH para Android
+        run: |
+          python -m pip install --quiet pillow
+          python scripts/generate-launcher-icon.py
+
       - name: Compilar APK debug
         working-directory: android
         run: bash ./gradlew assembleDebug --no-daemon --stacktrace
