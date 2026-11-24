@@ -42,3 +42,6 @@ Ajuste final de audio: precarga de pads bajo demanda, sin decodificar un tono in
 - Catálogo offline filtrado por letras descargadas explícitamente, no sólo caché Firestore.
 - Mezclador en popup grande y control de cierre sin pausar el audio.
 - Iconos Android generados desde icono-512.png del proyecto.
+
+### Ajuste final del catálogo offline
+La pantalla de Inicio también filtra títulos por letras descargadas en modo avión; revisión final incluida en la compilación.
