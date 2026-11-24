@@ -36,3 +36,9 @@ La nueva compilación incluye mejoras del visor de canciones y mensajes descript
 - Reproducir después de preparación; la primera decodificación aún puede tardar según RAM y duración.
 
 Ajuste final de audio: precarga de pads bajo demanda, sin decodificar un tono innecesario al iniciar la aplicación.
+
+## Pruebas offline y app icon — 23 nov 2026
+- Mensajes Sin conexión para pads y audio privado.
+- Catálogo offline filtrado por letras descargadas explícitamente, no sólo caché Firestore.
+- Mezclador en popup grande y control de cierre sin pausar el audio.
+- Iconos Android generados desde icono-512.png del proyecto.
