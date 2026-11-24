@@ -61,3 +61,9 @@ QA: restauración al reiniciar corregida para no sustituir la biblioteca interna
 - Se pide confirmación antes de eliminar pads o mezclas descargados.
 - Pads y mezclador actualizan automáticamente el indicador descargado al modificar la biblioteca.
 - Se mantienen sin cambios la web publicada y el motor de audio estable.
+
+## Diseño móvil compacto — 24 de noviembre 2026
+- El lector de canciones en teléfono usa una cabecera compacta y un menú Más para acordes, tamaño de texto, audio rack, edición, velocidad y distribución.
+- El título conserva ancho para evitar una letra por línea.
+- Ensayo a pantalla completa y mezclador de ensayo se ocultan en smartphones (<768px); tablet y PC conservan esos controles.
+- El flujo previo de audio offline y letras persistentes no se modifica.
