@@ -34,3 +34,5 @@ La nueva compilación incluye mejoras del visor de canciones y mensajes descript
 - Mezclador: preparación automática de pistas guardadas, transporte Play/Pausa con iconos.
 - Descargar pistas: confirma que ya están descargadas y deshabilita descarga redundante.
 - Reproducir después de preparación; la primera decodificación aún puede tardar según RAM y duración.
+
+Ajuste final de audio: precarga de pads bajo demanda, sin decodificar un tono innecesario al iniciar la aplicación.
