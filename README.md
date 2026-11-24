@@ -67,3 +67,9 @@ QA: restauración al reiniciar corregida para no sustituir la biblioteca interna
 - El título conserva ancho para evitar una letra por línea.
 - Ensayo a pantalla completa y mezclador de ensayo se ocultan en smartphones (<768px); tablet y PC conservan esos controles.
 - El flujo previo de audio offline y letras persistentes no se modifica.
+
+## 24 noviembre — lector móvil v2
+- Todos los controles en una sola fila: tono, canción anterior/siguiente, secciones, autoavance y ajustes.
+- El botón de ajustes ahora es un ícono de deslizadores sin texto; panel desplegable flotante a nivel body para evitar recortes y conflictos de z-index.
+- La navegación por secciones se superpone a la letra en vez de reducir el ancho de lectura.
+- Tablet/PC mantienen diseño original y mezclador. Revisión funcional pendiente en Vivo.
